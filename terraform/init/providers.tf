@@ -21,7 +21,7 @@ provider "aws" {
 # alternative for specific resources like CloudFront
 provider "aws" {
   alias  = "Stockholm"
-  region = "eu-north-1"
+  region = "us-east-1"
 
   default_tags {
     tags = local.infra_tags
