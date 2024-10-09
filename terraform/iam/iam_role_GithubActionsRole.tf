@@ -21,11 +21,11 @@ data "aws_iam_policy_document" "GithubActionsRole" {
     condition {
       test     = "StringLike"
       variable = "token.actions.githubusercontent.com:sub"
-      values   = ["repo:kazarin-ka/rsschool-devops-course-tasks:*"]
+      values   = ["repo:Solbadguy/rsschool-devops-course-tasks:*"]
     }
     principals {
       type        = "Federated"
-      identifiers = ["arn:aws:iam::205930612148:oidc-provider/token.actions.githubusercontent.com"]
+      identifiers = ["arn:aws:iam::481665096382:oidc-provider/token.actions.githubusercontent.com"]
     }
   }
 }
