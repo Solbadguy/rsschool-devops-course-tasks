@@ -66,7 +66,7 @@ variable "networks" {
   default = [
     {
       cidr = "192.168.1.0/24"
-      az   = "u-1a"
+      az   = "us-west-1a"
       type = "private"
     },
     {

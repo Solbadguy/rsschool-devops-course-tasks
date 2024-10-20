@@ -1,7 +1,7 @@
 env_type          = "dev"
 env_owner         = "nordweb"
 dns_zone_external = "rss.nordweb.edu"
-# ssh_public_key <Myst be set as "export TF_VAR_ssh_public_key">
+# ssh_public_key = <Myst be set as "export TF_VAR_ssh_public_key">
 # create_ec2_verifications_instances = true ## uncomment only if you need VMs to check internal routing and connectivity
 vpc_settings = {
   ipv4_cidr_block      = "10.0.0.0/16"
