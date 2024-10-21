@@ -14,32 +14,32 @@ vpc_settings = {
 networks = [
   {
     cidr = "10.0.1.0/24"
-    az   = "us-east-1a"
+    az   = "eu-west-1a"
     type = "private"
   },
   {
     cidr = "10.0.2.0/24"
-    az   = "us-east-1b"
+    az   = "eu-west-1b"
     type = "private"
   },
   {
     cidr = "10.0.3.0/24"
-    az   = "us-east-1a"
+    az   = "eu-west-1a"
     type = "public"
   },
   {
     cidr = "10.0.4.0/24"
-    az   = "us-east-1b"
+    az   = "eu-west-1b"
     type = "public"
   },
   {
     cidr = "10.0.5.0/24"
-    az   = "us-east-1a"
+    az   = "eu-west-1a"
     type = "database"
   },
   {
     cidr = "10.0.6.0/24"
-    az   = "us-east-1b"
+    az   = "eu-west-1b"
     type = "database"
   }
 ]
