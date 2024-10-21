@@ -66,32 +66,32 @@ variable "networks" {
   default = [
     {
       cidr = "192.168.1.0/24"
-      az   = "us-west-1a"
+      az   = "us-east-1a"
       type = "private"
     },
     {
       cidr = "192.168.2.0/24"
-      az   = "us-west-1b"
+      az   = "us-east-1b"
       type = "private"
     },
     {
       cidr = "192.168.3.0/24"
-      az   = "us-west-1a"
+      az   = "us-east-1a"
       type = "public"
     },
     {
       cidr = "192.168.4.0/24"
-      az   = "us-west-1b"
+      az   = "us-east-1b"
       type = "public"
     },
     {
       cidr = "192.168.5.0/24"
-      az   = "us-west-1a"
+      az   = "us-east-1a"
       type = "database"
     },
     {
       cidr = "192.168.6.0/24"
-      az   = "us-west-1b"
+      az   = "us-east-1b"
       type = "database"
     }
   ]
